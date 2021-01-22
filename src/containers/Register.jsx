@@ -1,4 +1,8 @@
+// import Libraries
 import React from "react";
+
+// import Styles and Images
+import "../assets/styles/components/Register.scss";
 
 const Register = () => {
   return (
