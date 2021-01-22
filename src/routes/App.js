@@ -1,13 +1,17 @@
 // import Libraries
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 // import Components
 import Home from "../containers/Home";
+import Login from "../components/Login";
 
 const App = () => (
   <BrowserRouter>
-    <Route exact path="/" component={Home} />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/login" component={Login} />
+    </Switch>
   </BrowserRouter>
 );
 
