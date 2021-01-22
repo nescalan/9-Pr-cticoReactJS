@@ -7,7 +7,7 @@ import Home from '../containers/Home'
 
 const App = () =>  {
     state = {  }
-    render() { 
+    render()  
         return ( 
             <BrowserRouter>
                 <Route path="/" component={Home} />
