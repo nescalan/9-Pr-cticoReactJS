@@ -1,7 +1,7 @@
 // import Libraries
 import React from "react";
 
-//import Styles and Images
+// import Styles and Images
 import "../assets/styles/components/NotFound.scss";
 
 const NotFound = () => {
