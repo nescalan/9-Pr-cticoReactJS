@@ -14,7 +14,7 @@ const Home = () => {
   return initialState.length === 0 ? (
     <h1>Loading...</h1>
   ) : (
-    <div className="Home">
+    <>
       <Search />
       {initialState.mylist.length > 0 && (
         <Categories title="Mi Lista">
@@ -39,7 +39,7 @@ const Home = () => {
           ))}
         </Carousel>
       </Categories>
-    </div>
+    </>
   );
 };
 
