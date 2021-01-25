@@ -39,7 +39,6 @@ const Home = () => {
           ))}
         </Carousel>
       </Categories>
-      <Footer />
     </div>
   );
 };
