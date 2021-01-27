@@ -12,7 +12,7 @@ import reducer from "./reducers";
 const iniatState = {
   user: {},
   playing: {},
-  myList: [],
+  mylist: [],
   trends: [
     {
       id: 2,

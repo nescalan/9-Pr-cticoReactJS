@@ -1,5 +1,6 @@
 // import Libraries
 import React, { useState, useEffect } from "react";
+import useInitialState from "../hooks/useInitialState";
 import { connect } from "react-redux";
 
 // import Styles and Images
@@ -15,7 +16,7 @@ const Home = ({ myList, trends, originals }) => {
   return (
     <>
       <Search />
-      {mylist.length > 0 && (
+      {myList.length > 0 && (
         <Categories title="Mi Lista">
           <Carousel>
             {mylist.map((item) => (
