@@ -1,7 +1,7 @@
 // import Libraries
 import React, { useState, useEffect } from "react";
-import useInitialState from "../hooks/useInitialState";
 import { connect } from "react-redux";
+import useInitialState from "../hooks/useInitialState";
 
 // import Styles and Images
 import "../assets/styles/App.scss";
@@ -19,7 +19,7 @@ const Home = ({ myList, trends, originals }) => {
       {myList.length > 0 && (
         <Categories title="Mi Lista">
           <Carousel>
-            {mylist.map((item) => (
+            {myList.map((item) => (
               <CarouselItem key={item.id} {...item} />
             ))}
           </Carousel>
