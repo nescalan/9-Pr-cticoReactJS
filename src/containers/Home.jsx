@@ -43,7 +43,8 @@ const Home = ({ myList, trends, originals }) => {
   );
 };
 
-const mapStateToProps = (props) => {
+const mapStateToProps = (state) => {
+  //Verificar si "state" se cambia por "props"
   return {
     myList: state.myList,
     trends: state.trends,
