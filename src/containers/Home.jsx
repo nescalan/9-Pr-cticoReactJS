@@ -43,12 +43,12 @@ const Home = ({ myList, trends, originals }) => {
   );
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (props) => {
   //Verificar si "state" se cambia por "props"
   return {
-    myList: state.myList,
-    trends: state.trends,
-    originals: state.originals,
+    myList: props.myList,
+    trends: props.trends,
+    originals: props.originals,
   };
 };
 
