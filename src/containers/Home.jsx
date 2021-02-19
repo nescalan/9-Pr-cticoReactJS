@@ -43,11 +43,16 @@ const Home = ({ myList, trends, originals }) => {
   );
 };
 
+<<<<<<< HEAD
 const mapStateToProps = (state) => {
+=======
+const mapStateToProps = (props) => {
+  //Verificar si "state" se cambia por "props"
+>>>>>>> branch_reducers
   return {
-    myList: state.myList,
-    trends: state.trends,
-    originals: state.originals,
+    myList: props.myList,
+    trends: props.trends,
+    originals: props.originals,
   };
 };
 
